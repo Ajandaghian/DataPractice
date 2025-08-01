@@ -1,0 +1,57 @@
+path:
+  train:         data_manager/datasets/raw/train.csv
+  test:         data_manager/datasets/raw/test.csv
+  train_processed:  data_manager/datasets/processed/train_processed.csv
+  test_processed:   data_manager/datasets/processed/test_processed.csv
+  submission:     ../submission.csv
+  feature_engineering_pkl:      model/feature_engineering.pkl
+  model_pkl:       model/final_model.pkl
+
+model_params:
+  SEED: 20250708
+  test_size: 0.2
+  learning_rate: 0.1
+  max_depth: 3
+  max_features: 'sqrt'
+  n_estimators: 200
+  subsample: 1.0
+
+preprocessing_params:
+  MEDIAN_AGE: 28.0
+  EMBARKED_MODE: 'S'
+  age_imputer_strategy: 'median'
+  embarked_imputer_strategy: 'frequent'
+
+features:
+  target: 'Survived'
+  input:
+    - 'PassengerId'
+    - 'Pclass'
+    - 'Name'
+    - 'Sex'
+    - 'Age'
+    - 'SibSp'
+    - 'Parch'
+    - 'Ticket'
+    - 'Fare'
+    - 'Cabin'
+    - 'Embarked'
+
+  numeric_features:
+    - 'Age'
+    - 'Fare'
+    - 'TicketGroupSize'
+
+  dtypes:
+    PassengerId: int64
+    Survived: int64
+    Pclass: int64
+    Name: object
+    Sex: object
+    Age: float64
+    SibSp: int64
+    Parch: int64
+    Ticket: object
+    Fare: float64
+    Cabin: object
+    Embarked: object
