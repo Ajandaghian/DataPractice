@@ -111,7 +111,7 @@ All notebooks are designed to run end-to-end. Simply execute cells in sequence!
 
 This research phase laid the foundation for a **⚙️ Automated training pipelines and model prediction**. Check out the productionized version:
 
-🔗 **[Titanic MLOps Production Pipeline](https://github.com/yourusername/titanic-mlops-production)**
+🔗 **[Titanic ML Production Pipeline](https://github.com/Ajandaghian/DataPractice/tree/177b1df1ac95a3cf3a538ae79b1499414481c6ce/Titanic%20(ML%20Pipeline)%20%7C%20Kaggle)**
 
 <!-- - 🚀 REST API for predictions
 - 🐳 Docker containerization
@@ -134,9 +134,11 @@ Found an interesting pattern or improvement? Contributions are welcome!
 
 ## 📧 Contact
 
-**Am. Janian** - [@A. Janian](https://www.linkedin.com/in/amirh-jandaghian/)
+**👓 Am. Janian**
+*A Curious Product Manager 👓 Exploring the Data Science World*
 
-Github: [https://github.com/Ajandaghian](https://github.com/Ajandaghian/DataPractice/tree/6edb7516e12ab5b1bdb1007473f832bf228f4430/Titanic%20(ML%20Research%20%26%20Prototyping)%20%7C%20Kaggle%20)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/amirh-jandaghian/) [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Ajandaghian) [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:amirh.jandaghian@gmail.com) [![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/amirhjandaghian)
+
 
 <!-- ---
 
@@ -147,3 +149,5 @@ Github: [https://github.com/Ajandaghian](https://github.com/Ajandaghian/DataPrac
 *Made with ❤️ and lots of ☕*
 
 </div> -->
+
+-- *Happy Coding! 🚀* --
