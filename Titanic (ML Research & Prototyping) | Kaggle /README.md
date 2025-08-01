@@ -7,7 +7,7 @@
 
 </div>
 
-## Research & Prototyping Environment
+## Research & Prototyping
 
 ---
 ### 📖 About This Project

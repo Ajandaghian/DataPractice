@@ -2,14 +2,11 @@
 
 <div align="center">
 <img src="https://raw.githubusercontent.com/Ajandaghian/DataPractice/506e78f670e3ae34d5c888b97bfa210e986311e2/Titanic%20(ML%20Research%20%26%20Prototyping)%20%7C%20Kaggle%20/.static/titanic.png" alt="Titanic" />
-
 *Predicting survival on the Titanic using machine learning*
 
 </div>
 
-
 ### *A Machine Learning Pipeline for Survival Prediction*
-
 ---
 ## 🎯 About This Project
 
@@ -108,7 +105,7 @@ validate_data(raw_data)  # Schema and quality checks
 - **Data Validator**: Ensures data quality and schema compliance
 - **Path Management**: Configuration-driven file path handling
 
-### **Phase 2: Advanced Feature Engineering** 🛠️
+### **Phase 2: Feature Engineering** 🛠️
 ```python
 # Custom transformers for domain-specific features
 feature_pipeline = Pipeline([
